@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 600f;
+    private float speed =400f;
     [SerializeField]
     private float jumpForce = 5.0f;
     private bool Jumping;
@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(Mathf.Sign(deltaX) *1.5f, 1.5f, 1.5f);
         }
 
-        if ((Input.GetKeyDown(KeyCode.Space) && !Jumping) || (Input.GetKeyDown(KeyCode.Space) && ExtraJump > 0))
+        if ((Input.GetKeyDown("w") && !Jumping) || (Input.GetKeyDown("w") && ExtraJump > 0))
         {
             rigidBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             animator.SetBool("IsJumping", true);

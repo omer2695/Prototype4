@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_2_Movement : MonoBehaviour
+public class Player2Movement : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 200f;
+    private float speed=15f;
     [SerializeField]
-    private float jumpForce = 5.0f;
+    private float jumpForce=5f;
     private bool Jumping;
     private int ExtraJump;
     private Rigidbody2D rigidBody;
@@ -46,7 +46,7 @@ public class Player_2_Movement : MonoBehaviour
         {
             animator.SetFloat("PlayerSpeed", 0);
         }
-        if ((Input.GetKey("i") && !Jumping) || (Input.GetKey("i") && ExtraJump >= 0))
+        if ((Input.GetKeyDown("i") && !Jumping) || (Input.GetKeyDown("i") && ExtraJump >= 0))
         {
 
             rigidBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);

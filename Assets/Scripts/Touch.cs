@@ -12,14 +12,14 @@ public class Touch : MonoBehaviour
     {
         if (other.gameObject.name == "Player1")
         {
-            GetComponent<SpriteRenderer>().color = Color.green;
+            GetComponent<SpriteRenderer>().color = Color.yellow;
             Physics2D.IgnoreCollision(GameObject.Find("Player1").GetComponent<Collider2D>(), this.GetComponent<Collider2D>());
             Physics2D.IgnoreCollision(GameObject.Find("Player2").GetComponent<Collider2D>(), this.GetComponent<Collider2D>(), false);
             p1Won = true;
         }
         if (other.gameObject.name == "Player2")
         {
-                        GetComponent<SpriteRenderer>().color = Color.blue;
+            GetComponent<SpriteRenderer>().color = Color.red;
 
             Physics2D.IgnoreCollision(GameObject.Find("Player2").GetComponent<Collider2D>(), this.GetComponent<Collider2D>());
             Physics2D.IgnoreCollision(GameObject.Find("Player1").GetComponent<Collider2D>(), this.GetComponent<Collider2D>(), false);
@@ -32,19 +32,21 @@ public class Touch : MonoBehaviour
             if (p1Won)
             {
                 result.text = "Player 1 is the Winner!";
+                StartCoroutine(Restart());
+
             }
             else
             {
                 result.text = "Player 2 is the Winner!";
             }
-                        StartCoroutine(Restart());
+            StartCoroutine(Restart());
 
         }
-          IEnumerator Restart()
-    {
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Menu");
-    }
+        IEnumerator Restart()
+        {
+            yield return new WaitForSeconds(1f);
+            SceneManager.LoadScene("Menu");
+        }
 
     }
 }

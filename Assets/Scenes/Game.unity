@@ -150,6 +150,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d6572dbbeed8e3f4198554d24a1b44b8, type: 2}
+    - target: {fileID: 860319993201803158, guid: 2facb331d5e2efe42a1ca6661fd11a4e, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 860319993201803159, guid: 2facb331d5e2efe42a1ca6661fd11a4e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -380,7 +384,7 @@ GameObject:
   - component: {fileID: 312938005}
   - component: {fileID: 312938004}
   m_Layer: 0
-  m_Name: Static Sprite
+  m_Name: Step3
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -393,13 +397,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312938002}
-  m_LocalRotation: {x: -0.41310525, y: 0.48667234, z: -0.24779356, w: 0.7287609}
-  m_LocalPosition: {x: 2.32, y: 45.1, z: -19.16}
-  m_LocalScale: {x: 1.96, y: 1.87, z: 1}
+  m_LocalRotation: {x: -0.52597654, y: 0.35215494, z: -0.7705366, w: 0.0748922}
+  m_LocalPosition: {x: 2.33, y: 45.29, z: -18.74}
+  m_LocalScale: {x: 1.8, y: 1.03, z: 1}
   m_Children: []
   m_Father: {fileID: 1780483924}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -21.157, y: 78.559, z: -54.927}
+  m_LocalEulerAnglesHint: {x: 27.64, y: 77.04, z: -146.739}
 --- !u!50 &312938004
 Rigidbody2D:
   serializedVersion: 4
@@ -611,7 +615,7 @@ GameObject:
   - component: {fileID: 413421242}
   - component: {fileID: 413421241}
   m_Layer: 0
-  m_Name: Step1 (2)
+  m_Name: Step7
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -624,13 +628,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 413421239}
-  m_LocalRotation: {x: -0.48355728, y: -0.045029256, z: -0.024919046, w: 0.8737985}
-  m_LocalPosition: {x: 0.646, y: 21.76, z: -10.82}
+  m_LocalRotation: {x: -0.4878139, y: -0.044907164, z: -0.02513842, w: 0.87142926}
+  m_LocalPosition: {x: 0.57, y: 22.27, z: -11.15}
   m_LocalScale: {x: -0.19, y: 2.81, z: 1}
   m_Children: []
   m_Father: {fileID: 1780483924}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: -57.92, y: -5.9, z: 0}
+  m_LocalEulerAnglesHint: {x: -58.479, y: -5.9, z: 0}
 --- !u!50 &413421241
 Rigidbody2D:
   serializedVersion: 4
@@ -742,7 +746,7 @@ GameObject:
   - component: {fileID: 454748585}
   - component: {fileID: 454748584}
   m_Layer: 0
-  m_Name: Step1 (3)
+  m_Name: Step8
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -756,7 +760,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454748582}
   m_LocalRotation: {x: -0.3905058, y: -0.116649345, z: -0.17395921, w: 0.8964576}
-  m_LocalPosition: {x: -1.09, y: 11.2, z: 3.99}
+  m_LocalPosition: {x: -0.96, y: 13.97, z: 2.54}
   m_LocalScale: {x: 0.58, y: 0.91, z: 1}
   m_Children: []
   m_Father: {fileID: 1780483924}
@@ -873,7 +877,7 @@ GameObject:
   - component: {fileID: 502762296}
   - component: {fileID: 502762295}
   m_Layer: 0
-  m_Name: Static Sprite (3)
+  m_Name: Step5
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -887,8 +891,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 502762293}
   m_LocalRotation: {x: -0.5190475, y: -0.08309331, z: -0.75630707, w: -0.38946745}
-  m_LocalPosition: {x: 3.2609, y: 22.075, z: -20.2917}
-  m_LocalScale: {x: -0.58, y: -1.8, z: 2.664}
+  m_LocalPosition: {x: 3.65, y: 23.47, z: -18.13}
+  m_LocalScale: {x: -0.58, y: -0.77, z: 2.664}
   m_Children: []
   m_Father: {fileID: 1780483924}
   m_RootOrder: 4
@@ -1087,7 +1091,7 @@ GameObject:
   - component: {fileID: 586821764}
   - component: {fileID: 586821763}
   m_Layer: 0
-  m_Name: Step1 (1)
+  m_Name: Step2
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1101,7 +1105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586821761}
   m_LocalRotation: {x: -0.20018677, y: -0.07297137, z: -0.004995763, w: 0.9770238}
-  m_LocalPosition: {x: 1.09, y: 31, z: -4.7}
+  m_LocalPosition: {x: 1.16, y: 32.9, z: -5.01}
   m_LocalScale: {x: -0.1, y: 8.59, z: 1}
   m_Children: []
   m_Father: {fileID: 1780483924}
@@ -1218,7 +1222,7 @@ GameObject:
   - component: {fileID: 765546646}
   - component: {fileID: 765546645}
   m_Layer: 0
-  m_Name: Static Sprite (1)
+  m_Name: Step4
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1231,13 +1235,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765546643}
-  m_LocalRotation: {x: -0.22749455, y: 0.72970915, z: -0.37533736, w: 0.5243021}
-  m_LocalPosition: {x: 3.71, y: 37.8, z: -17.1}
-  m_LocalScale: {x: 1, y: 4, z: 1}
+  m_LocalRotation: {x: -0.24840619, y: 0.71592414, z: -0.35722804, w: 0.5460176}
+  m_LocalPosition: {x: 3.8, y: 33.47, z: -16.75}
+  m_LocalScale: {x: 0.52, y: 6.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1780483924}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 18.012, y: 100.203, z: -49.728}
+  m_LocalEulerAnglesHint: {x: 13.9, y: 98.8, z: -50.2}
 --- !u!50 &765546645
 Rigidbody2D:
   serializedVersion: 4
@@ -1362,7 +1366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 773037850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.392, y: 0.6946, z: 0}
+  m_LocalPosition: {x: 5.66, y: 0.6946, z: 0}
   m_LocalScale: {x: -0.86508524, y: 8.690058, z: 0.39272}
   m_Children: []
   m_Father: {fileID: 1677531244}
@@ -1381,7 +1385,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1392,7 +1396,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.87, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &773037853
 SpriteRenderer:
@@ -1458,7 +1462,7 @@ GameObject:
   - component: {fileID: 812465602}
   - component: {fileID: 812465601}
   m_Layer: 0
-  m_Name: Static Sprite (5)
+  m_Name: Step11
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1626,7 +1630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.101481676, a: 1}
+  m_Color: {r: 0, g: 0.0013723373, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1635,7 +1639,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -1681,8 +1685,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006668796}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.015, y: -3.57, z: 0}
-  m_LocalScale: {x: 9.997883, y: 0.48601013, z: 0.39272}
+  m_LocalPosition: {x: 0.1, y: -3.57, z: 0}
+  m_LocalScale: {x: 10.62, y: 0.48601013, z: 0.39272}
   m_Children: []
   m_Father: {fileID: 1677531244}
   m_RootOrder: 2
@@ -1777,7 +1781,7 @@ GameObject:
   - component: {fileID: 1032536459}
   - component: {fileID: 1032536458}
   m_Layer: 0
-  m_Name: Static Sprite (6)
+  m_Name: Step12
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1912,8 +1916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd5ad8cc2f7e490469a7495eab18d684, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  jumpForce: 5
+  speed: 15
+  jumpForce: 3
   animator: {fileID: 1176078195}
 --- !u!95 &1176078195 stripped
 Animator:
@@ -1933,7 +1937,7 @@ GameObject:
   - component: {fileID: 1192639869}
   - component: {fileID: 1192639868}
   m_Layer: 0
-  m_Name: Step1 (5)
+  m_Name: Step10
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1946,13 +1950,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1192639866}
-  m_LocalRotation: {x: -0.66424346, y: 0.0037639511, z: 0.0050077587, w: 0.7474901}
-  m_LocalPosition: {x: -2.4, y: 26.5, z: 0.96}
+  m_LocalRotation: {x: -0.6742185, y: -0.014948264, z: -0.011680197, w: 0.73828834}
+  m_LocalPosition: {x: -1.85, y: 26.26, z: 0.97}
   m_LocalScale: {x: 0.78, y: 3.4, z: 1}
   m_Children: []
   m_Father: {fileID: 1780483924}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: -83.25, y: -0.5, z: 1.212}
+  m_LocalEulerAnglesHint: {x: -84.8, y: -4, z: 1.84}
 --- !u!50 &1192639868
 Rigidbody2D:
   serializedVersion: 4
@@ -2372,7 +2376,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.17, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2383,7 +2387,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.69, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &1753215194
 SpriteRenderer:
@@ -2660,7 +2664,7 @@ GameObject:
   - component: {fileID: 1917241297}
   - component: {fileID: 1917241296}
   m_Layer: 0
-  m_Name: Static Sprite (4)
+  m_Name: Step6
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2673,13 +2677,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917241294}
-  m_LocalRotation: {x: -0.47822624, y: -0.26429632, z: -0.6821405, w: -0.48593354}
-  m_LocalPosition: {x: 2.613, y: 12.97, z: -18.92}
-  m_LocalScale: {x: -1.4, y: 1.6234888, z: 0.9044896}
+  m_LocalRotation: {x: 0.48038182, y: 0.009067193, z: 0.72892374, w: -0.48766935}
+  m_LocalPosition: {x: 2.51, y: 13.76, z: -20.56}
+  m_LocalScale: {x: -3.2, y: 0.12, z: 0.9044896}
   m_Children: []
   m_Father: {fileID: 1780483924}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 5.981, y: 66.103, z: -247.03601}
+  m_LocalEulerAnglesHint: {x: -28.8, y: 52.1, z: -486.74}
 --- !u!50 &1917241296
 Rigidbody2D:
   serializedVersion: 4
@@ -2791,7 +2795,7 @@ GameObject:
   - component: {fileID: 2016644273}
   - component: {fileID: 2016644272}
   m_Layer: 0
-  m_Name: Step1 (4)
+  m_Name: Step9
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2805,7 +2809,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016644270}
   m_LocalRotation: {x: -0.4497168, y: -0.3635354, z: 0.17602237, w: 0.79662603}
-  m_LocalPosition: {x: -0.95, y: 23, z: 6.64}
+  m_LocalPosition: {x: -0.61, y: 23.48, z: 8.2}
   m_LocalScale: {x: 0.28, y: 3.29, z: 1}
   m_Children: []
   m_Father: {fileID: 1780483924}
@@ -3165,7 +3169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 860319993201803160, guid: 2facb331d5e2efe42a1ca6661fd11a4e, type: 3}
       propertyPath: speed
-      value: 600
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 860319993201803160, guid: 2facb331d5e2efe42a1ca6661fd11a4e, type: 3}
       propertyPath: animator
