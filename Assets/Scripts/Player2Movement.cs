@@ -5,9 +5,9 @@ using UnityEngine;
 public class Player2Movement : MonoBehaviour
 {
     [SerializeField]
-    private float speed=15f;
+    private float speed=400f;
     [SerializeField]
-    private float jumpForce=5f;
+    private float jumpForce=2f;
     private bool Jumping;
     private int ExtraJump;
     private Rigidbody2D rigidBody;
@@ -28,12 +28,12 @@ public class Player2Movement : MonoBehaviour
 
         if (Input.GetKey("l"))
         {
-            rigidBody.AddForce(Vector2.right * jumpForce, ForceMode2D.Impulse);
+            rigidBody.AddForce(Vector2.right/25 * jumpForce, ForceMode2D.Impulse);
             animator.SetFloat("PlayerSpeed", Mathf.Abs(speed * Time.deltaTime));
         }
         else if (Input.GetKey("j"))
         {
-            rigidBody.AddForce(Vector2.left * jumpForce, ForceMode2D.Impulse);
+            rigidBody.AddForce(Vector2.left/25 * jumpForce, ForceMode2D.Impulse);
             animator.SetFloat("PlayerSpeed", Mathf.Abs(speed * Time.deltaTime));
             
         }
@@ -46,7 +46,7 @@ public class Player2Movement : MonoBehaviour
         {
             animator.SetFloat("PlayerSpeed", 0);
         }
-        if ((Input.GetKeyDown("i") && !Jumping) || (Input.GetKeyDown("i") && ExtraJump >= 0))
+        if ((Input.GetKeyDown("i") && !Jumping) || (Input.GetKeyDown("i") && ExtraJump > 0))
         {
 
             rigidBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
