@@ -12,14 +12,15 @@ public class Touch : MonoBehaviour
     {
         if (other.gameObject.name == "Player1")
         {
-            GetComponent<SpriteRenderer>().color = Color.yellow;
+            GetComponent<SpriteRenderer>().color = Color.red;
+
             Physics2D.IgnoreCollision(GameObject.Find("Player1").GetComponent<Collider2D>(), this.GetComponent<Collider2D>());
             Physics2D.IgnoreCollision(GameObject.Find("Player2").GetComponent<Collider2D>(), this.GetComponent<Collider2D>(), false);
             p1Won = true;
         }
         if (other.gameObject.name == "Player2")
         {
-            GetComponent<SpriteRenderer>().color = Color.red;
+            GetComponent<SpriteRenderer>().color = Color.yellow;
 
             Physics2D.IgnoreCollision(GameObject.Find("Player2").GetComponent<Collider2D>(), this.GetComponent<Collider2D>());
             Physics2D.IgnoreCollision(GameObject.Find("Player1").GetComponent<Collider2D>(), this.GetComponent<Collider2D>(), false);
@@ -27,6 +28,23 @@ public class Touch : MonoBehaviour
 
         }
 
+        if (other.gameObject.name == "LeftWall")
+        {
+            this.transform.position += new Vector3(0.4f, 0.2f, 0);
+
+
+        }
+        if (other.gameObject.name == "RightWall")
+        {
+            this.transform.position += new Vector3(-0.4f, 0.2f, 0);
+        }
+
+        if (other.gameObject.tag == "Ground")
+        {
+            this.transform.position += new Vector3(0.05f, 0.1f, 0);
+
+
+        }
         if (other.gameObject.name == "Floor")
         {
             if (p1Won)

@@ -5,9 +5,9 @@ using UnityEngine;
 public class Player2Movement : MonoBehaviour
 {
     [SerializeField]
-    private float speed=400f;
+    private float speed = 200f;
     [SerializeField]
-    private float jumpForce=2f;
+    private float jumpForce = 2f;
     private bool Jumping;
     private int ExtraJump;
     private Rigidbody2D rigidBody;
@@ -23,19 +23,19 @@ public class Player2Movement : MonoBehaviour
     {
         float deltaX = rigidBody.velocity.x * speed * Time.deltaTime;
         Vector2 movement = new Vector2(deltaX, rigidBody.velocity.y);
-        
+
 
 
         if (Input.GetKey("l"))
         {
-            rigidBody.AddForce(Vector2.right/25 * jumpForce, ForceMode2D.Impulse);
+            rigidBody.AddForce(Vector2.right / 20 * jumpForce, ForceMode2D.Impulse);
             animator.SetFloat("PlayerSpeed", Mathf.Abs(speed * Time.deltaTime));
         }
         else if (Input.GetKey("j"))
         {
-            rigidBody.AddForce(Vector2.left/25 * jumpForce, ForceMode2D.Impulse);
+            rigidBody.AddForce(Vector2.left / 20 * jumpForce, ForceMode2D.Impulse);
             animator.SetFloat("PlayerSpeed", Mathf.Abs(speed * Time.deltaTime));
-            
+
         }
         if (!Mathf.Approximately(deltaX, 0.0f))
         {
@@ -58,7 +58,7 @@ public class Player2Movement : MonoBehaviour
         {
             animator.SetBool("IsJumping", false);
         }
-        
+
 
     }
 
