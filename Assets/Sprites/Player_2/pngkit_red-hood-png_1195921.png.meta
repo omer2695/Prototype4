@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: b68eaaab31e3e674da27dd03b2b8a169
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8675091495925660597
+    second: pngkit_red-hood-png_1195921_0
+  - first:
+      213: 3275604064235379826
+    second: pngkit_red-hood-png_1195921_1
+  - first:
+      213: 1511917259313961880
+    second: pngkit_red-hood-png_1195921_2
+  - first:
+      213: -7685311808159965135
+    second: pngkit_red-hood-png_1195921_3
+  - first:
+      213: 3612598153360747317
+    second: pngkit_red-hood-png_1195921_4
+  - first:
+      213: 1298770735328869000
+    second: pngkit_red-hood-png_1195921_5
+  - first:
+      213: 4728381792344157308
+    second: pngkit_red-hood-png_1195921_6
+  - first:
+      213: 7361833954971187511
+    second: pngkit_red-hood-png_1195921_7
+  - first:
+      213: -9068154161727549076
+    second: pngkit_red-hood-png_1195921_8
+  - first:
+      213: -1025238253837539940
+    second: pngkit_red-hood-png_1195921_9
+  - first:
+      213: -7257885104273218302
+    second: pngkit_red-hood-png_1195921_10
+  - first:
+      213: 6778553054639238850
+    second: pngkit_red-hood-png_1195921_11
+  - first:
+      213: -4640817582172479496
+    second: pngkit_red-hood-png_1195921_12
+  - first:
+      213: 5029520035823221720
+    second: pngkit_red-hood-png_1195921_13
+  - first:
+      213: -441821414358722397
+    second: pngkit_red-hood-png_1195921_14
+  - first:
+      213: 3982585780074592671
+    second: pngkit_red-hood-png_1195921_15
+  - first:
+      213: 4939896585481239948
+    second: pngkit_red-hood-png_1195921_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 551
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb39a0c0cd146870800000000000000
+      internalID: 8675091495925660597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_1
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 726
+        width: 78
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c5391aa88457d20800000000000000
+      internalID: 3275604064235379826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_2
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 726
+        width: 78
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bd033acb86bf410800000000000000
+      internalID: 1511917259313961880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_3
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 726
+        width: 79
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130a28601a9485590800000000000000
+      internalID: -7685311808159965135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_4
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 726
+        width: 79
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bac4f41e6822230800000000000000
+      internalID: 3612598153360747317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_5
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 559
+        width: 79
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a33f34a19260210800000000000000
+      internalID: 1298770735328869000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 561
+        width: 90
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c291720369e9140800000000000000
+      internalID: 4728381792344157308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_7
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 561
+        width: 98
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73977753afc7a2660800000000000000
+      internalID: 7361833954971187511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_8
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 393
+        width: 89
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61dfb5c5d1772280800000000000000
+      internalID: -9068154161727549076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_9
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 393
+        width: 81
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c952fd57d3f95c1f0800000000000000
+      internalID: -1025238253837539940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_10
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 394
+        width: 87
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205223b93ffc64b90800000000000000
+      internalID: -7257885104273218302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_11
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 216
+        width: 83
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce29e0c612421e50800000000000000
+      internalID: 6778553054639238850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_12
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 219
+        width: 97
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffd8334ff0889fb0800000000000000
+      internalID: -4640817582172479496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_13
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 218
+        width: 95
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbf3f533d17cc540800000000000000
+      internalID: 5029520035823221720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_14
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 50
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8dcf6b3c55ed9f0800000000000000
+      internalID: -441821414358722397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_15
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 50
+        width: 93
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f993ed49aacf44730800000000000000
+      internalID: 3982585780074592671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngkit_red-hood-png_1195921_16
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 50
+        width: 129
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d36c495c90e8440800000000000000
+      internalID: 4939896585481239948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

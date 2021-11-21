@@ -1,9 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player_2_Movement : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 600f;
+    private float speed = 200f;
     [SerializeField]
     private float jumpForce = 5.0f;
     private bool Jumping;
@@ -11,32 +13,42 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rigidBody;
     public Animator animator;
 
-    private void Start()
+    void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
-        if (rigidBody == null)
-        {
-            Debug.LogError("Failed to cache rigid body. rigid body not found!");
-        }
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        float deltaX = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+        float deltaX = rigidBody.velocity.x * speed * Time.deltaTime;
         Vector2 movement = new Vector2(deltaX, rigidBody.velocity.y);
-        rigidBody.velocity = movement;
-        animator.SetFloat("PlayerSpeed", Mathf.Abs(deltaX));
+        
 
 
+        if (Input.GetKey("l"))
+        {
+            rigidBody.AddForce(Vector2.right * jumpForce, ForceMode2D.Impulse);
+            animator.SetFloat("PlayerSpeed", Mathf.Abs(speed * Time.deltaTime));
+        }
+        else if (Input.GetKey("j"))
+        {
+            rigidBody.AddForce(Vector2.left * jumpForce, ForceMode2D.Impulse);
+            animator.SetFloat("PlayerSpeed", Mathf.Abs(speed * Time.deltaTime));
+            
+        }
         if (!Mathf.Approximately(deltaX, 0.0f))
         {
             // Scale x to either positive or negative 1 to 'turn' the character
-            transform.localScale = new Vector3(Mathf.Sign(deltaX) *1.5f, 1.5f, 1.5f);
+            transform.localScale = new Vector3(Mathf.Sign(deltaX) * -1.5f, 1.5f, 1.5f);
         }
-
-        if ((Input.GetKeyDown(KeyCode.Space) && !Jumping) || (Input.GetKeyDown(KeyCode.Space) && ExtraJump > 0))
+        else
         {
+            animator.SetFloat("PlayerSpeed", 0);
+        }
+        if ((Input.GetKey("i") && !Jumping) || (Input.GetKey("i") && ExtraJump >= 0))
+        {
+
             rigidBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             animator.SetBool("IsJumping", true);
             Jumping = true;
@@ -45,8 +57,8 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animator.SetBool("IsJumping", false);
-
         }
+        
 
     }
 
